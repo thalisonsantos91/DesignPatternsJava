@@ -1,5 +1,7 @@
+package concreteProduct;
+import product.Iterator;
 
-public class ListIterator implements Iterator{
+public class ArrayIterator implements Iterator{
 
 	@Override
 	public void hasNext() {
@@ -18,5 +20,5 @@ public class ListIterator implements Iterator{
 		
 		
 	}
-	
+
 }

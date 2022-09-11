@@ -1,3 +1,4 @@
+package contas;
 import java.util.Date;
 
 public class ContaSalario extends Conta {

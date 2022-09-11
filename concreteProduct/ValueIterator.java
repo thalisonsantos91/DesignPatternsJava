@@ -1,3 +1,5 @@
+package concreteProduct;
+import product.Iterator;
 
 public class ValueIterator implements Iterator{
 

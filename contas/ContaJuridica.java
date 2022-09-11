@@ -1,3 +1,4 @@
+package contas;
 import java.util.Date;
 
 abstract class ContaJuridica extends Conta {

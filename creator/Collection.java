@@ -1,3 +1,5 @@
+package creator;
+import product.Iterator;
 
 public interface Collection {
 
