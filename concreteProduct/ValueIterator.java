@@ -1,23 +1,24 @@
 package concreteProduct;
+import contas.Conta;
 import product.Iterator;
 
 public class ValueIterator implements Iterator{
 
 	@Override
-	public void hasNext() {
+	public boolean hasNext() {
+		return false;
 		
 		
 	}
 
 	@Override
-	public void next() {
-		
-		
+	public Iterator next() {
+		return null;	
 	}
-
+ 
 	@Override
 	public void remove() {
-		
+		// TODO Auto-generated method stub
 		
 	}
 

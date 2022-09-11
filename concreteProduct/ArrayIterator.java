@@ -1,24 +1,27 @@
 package concreteProduct;
+import java.util.ArrayList;
+
+import contas.Conta;
 import product.Iterator;
 
 public class ArrayIterator implements Iterator{
 
-	@Override
-	public void hasNext() {
-		
-		
+	public boolean hasNext() {
+
+		return false;
 	}
 
-	@Override
-	public void next() {
-		
-		
-	}
 
-	@Override
 	public void remove() {
-		
+		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public Iterator next() {
+		
+		return null;
+	}
+
 
 }

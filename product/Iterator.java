@@ -1,10 +1,14 @@
 package product;
 
+import java.util.ArrayList;
+
+import contas.Conta;
+
 public interface Iterator {
 	
-	public abstract void hasNext();
+	public abstract boolean hasNext();
 	
-	public abstract void next();
+	public abstract Iterator next();
 	
 	public abstract void remove();
 	
