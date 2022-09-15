@@ -1,4 +1,4 @@
-package contas;
+package com.pps.banco.contas;
 import java.util.Date;
 
 public class ContaJuridicaMei extends ContaJuridica {

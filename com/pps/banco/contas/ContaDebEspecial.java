@@ -1,8 +1,8 @@
-package contas;
+package com.pps.banco.contas;
 
 public class ContaDebEspecial extends ContaEspecial{
    
-   ContaDebEspecial() {
+   public ContaDebEspecial() {
    	super();
    }
    

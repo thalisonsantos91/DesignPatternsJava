@@ -1,25 +1,24 @@
-package contas;
+package com.pps.banco.contas;
 
 abstract public class Conta {
   
-  // 
   protected String numero;
-  // 
+  
   protected double saldo;
-  //
-  protected String getNumero (  ) {
+  
+  public String getNumero (  ) {
     return numero;
   }
   
-  protected void setNumero ( String value  ) {
+  public void setNumero ( String value  ) {
     numero = value;
   }
   
-  protected double getSaldo (  ) {
+  public double getSaldo (  ) {
     return saldo;
   }
   
-  protected void setSaldo ( double value  ) {
+  public void setSaldo ( double value  ) {
     saldo = value;
   }
   

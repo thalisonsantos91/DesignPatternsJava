@@ -1,4 +1,4 @@
-package contas;
+package com.pps.banco.contas;
 public class ContaNormal extends Conta {
         
   public void creditar (double valor) {
@@ -9,7 +9,6 @@ public class ContaNormal extends Conta {
     if ((saldo-valor) >= 0) {
     	saldo = saldo - valor;
     }
-	
   }
 }
 

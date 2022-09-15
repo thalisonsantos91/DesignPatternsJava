@@ -1,13 +1,13 @@
-package contas;
+package com.pps.banco.contas;
 abstract public class ContaEspecial extends Conta {
   
   protected double limite;
   
-  protected void setLimite ( double value  ) {
+  public void setLimite ( double value  ) {
     limite = value;
   }
   
-  protected double getLimite () {
+  public double getLimite () {
     return limite;
   }
   
