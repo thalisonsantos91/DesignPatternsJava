@@ -16,4 +16,9 @@ public class ContaSalario extends Conta {
 	    	saldo = saldo - valor;		
 		}
 	}
+
+	@Override
+	void transferir(double valor) {
+
+	}
 }

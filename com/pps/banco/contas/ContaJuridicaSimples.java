@@ -15,4 +15,8 @@ public class ContaJuridicaSimples extends ContaJuridica{
 	dataAberturaContaJurdica = dataAberturaPJSimples;
 	}
 
+	@Override
+	void transferir(double valor) {
+
+	}
 }

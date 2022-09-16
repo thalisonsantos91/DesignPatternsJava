@@ -5,10 +5,15 @@ public class ContaNormal extends Conta {
     saldo = saldo + valor;
   }
   
-  public void debitar (double valor) {  // Conta Normal n�o possui limite, logo em uma opera��o de d�bito apenas o saldo est� dispon�vel.
+  public void debitar (double valor) { 
     if ((saldo-valor) >= 0) {
     	saldo = saldo - valor;
     }
+  }
+
+  @Override
+  void transferir(double valor) {
+
   }
 }
 

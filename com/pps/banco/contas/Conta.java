@@ -25,5 +25,7 @@ abstract public class Conta {
   abstract void creditar (double valor);
   
   abstract void debitar (double valor);
+  
+  abstract void transferir (double valor);
 }
 

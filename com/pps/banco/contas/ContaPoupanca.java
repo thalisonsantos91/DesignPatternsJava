@@ -1,6 +1,7 @@
 package com.pps.banco.contas;
 
 public class ContaPoupanca extends Conta{
+	
 
 	void creditar(double valor) {
 		
@@ -8,6 +9,11 @@ public class ContaPoupanca extends Conta{
 
 	void debitar(double valor) {
 		
+	}
+
+	@Override
+	void transferir(double valor) {
+
 	}
 
 }
