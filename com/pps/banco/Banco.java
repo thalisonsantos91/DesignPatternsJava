@@ -44,7 +44,7 @@ public class Banco {
     public static void main(String args[]) {
 
         ContaFactory contaCorrente = new ContaCorrenteFactory();
-        contaCorrente.criarConta("434324", 2000);
+        contaCorrente.criarConta("434325", 2000);
         contaCorrente.criarConta("234535", 1000);
         contaCorrente.criarConta("345334", 500);
 
