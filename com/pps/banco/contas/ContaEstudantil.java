@@ -9,13 +9,13 @@ public class ContaEstudantil extends Conta {
 	}
 
 	void debitar(double valor) {
-		if ((saldo - valor) >= 0) {
+		if ((limiteContaSalario + saldo - valor) >= 0) {
 			saldo = saldo - valor;
 		}
 	}
 
 	void transferir(double valor) {
-		if ((saldo - valor) >= 0) {
+		if ((limiteContaSalario + saldo - valor) >= 0) {
 			saldo = saldo - ((valor * 0.15) + valor);
 		}
 	}

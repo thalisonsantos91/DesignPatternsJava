@@ -10,6 +10,7 @@ import com.pps.banco.contas.ContaCreditoEspecial;
 import com.pps.banco.contas.ContaNormal;
 import com.pps.banco.factory.ContaCorrenteFactory;
 import com.pps.banco.factory.ContaCreditoEspecialFactory;
+import com.pps.banco.factory.ContaEstudantilFactory;
 import com.pps.banco.factory.ContaFactory;
 import com.pps.banco.factory.ContaPoupancaFactory;
 
@@ -68,7 +69,12 @@ public class Banco {
 
         contaPoupanca.listarConta();
         
-        
+        ContaFactory contaEstudantil = new ContaEstudantilFactory();
+        contaEstudantil.criarConta("890033", 10000.776);
+        contaEstudantil.criarConta("111123", 10.4556);
+        contaEstudantil.criarConta("010101", 8009);
+
+        contaEstudantil.listarConta();
         
         
     }
