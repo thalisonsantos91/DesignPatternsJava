@@ -26,7 +26,8 @@ public class ContaCorrenteFactory extends ContaFactory {
         Conta c = null;
         while(iterator.hasNext()) {
             c = (Conta)iterator.next();
-            System.out.printf("Conta corrente novo %s  %s\n", c.getNumero(), c.getSaldo());
+            System.out.printf("Conta corrente nova: %s  %s\n", c.getNumero(), c.getSaldo());
+            System.out.println("****");
         }
     }
 

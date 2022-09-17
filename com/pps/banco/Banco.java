@@ -9,7 +9,9 @@ import com.pps.banco.contas.Conta;
 import com.pps.banco.contas.ContaCreditoEspecial;
 import com.pps.banco.contas.ContaNormal;
 import com.pps.banco.factory.ContaCorrenteFactory;
+import com.pps.banco.factory.ContaCreditoEspecialFactory;
 import com.pps.banco.factory.ContaFactory;
+import com.pps.banco.factory.ContaPoupancaFactory;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -49,5 +51,25 @@ public class Banco {
         contaCorrente.criarConta("345334", 500);
 
         contaCorrente.listarConta();
+        
+        
+        ContaFactory contaCreditoEspecial = new ContaCreditoEspecialFactory();
+        contaCreditoEspecial.criarConta("555557", 212.907);
+        contaCreditoEspecial.criarConta("209987", 10);
+        contaCreditoEspecial.criarConta("222222", 2.90);
+
+        contaCreditoEspecial.listarConta();
+        
+        
+        ContaFactory contaPoupanca = new ContaPoupancaFactory();
+        contaPoupanca.criarConta("678902", 10000.776);
+        contaPoupanca.criarConta("000025", 10.4556);
+        contaPoupanca.criarConta("777774", 8009);
+
+        contaPoupanca.listarConta();
+        
+        
+        
+        
     }
 }
