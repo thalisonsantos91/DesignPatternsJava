@@ -26,7 +26,7 @@ public class ContaPoupancaFactory extends ContaFactory{
         Conta c = null;
         while(iterator.hasNext()) {
             c = (Conta)iterator.next();
-            System.out.printf("Conta PopanÃ§a nova:%s  %s\n", c.getNumero(), c.getSaldo());
+            System.out.printf("Conta Poupança nova:%s  %s\n", c.getNumero(), c.getSaldo());
             System.out.println("****");
         }
 		

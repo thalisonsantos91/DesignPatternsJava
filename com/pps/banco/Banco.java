@@ -13,6 +13,7 @@ import com.pps.banco.factory.ContaCreditoEspecialFactory;
 import com.pps.banco.factory.ContaEstudantilFactory;
 import com.pps.banco.factory.ContaFactory;
 import com.pps.banco.factory.ContaPoupancaFactory;
+import com.pps.banco.singleton.Usuario;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -76,6 +77,9 @@ public class Banco {
 
         contaEstudantil.listarConta();
         
+        Usuario usuario = Usuario.getUsuarioInstance();
+        
+        System.out.println(usuario);
         
     }
 }

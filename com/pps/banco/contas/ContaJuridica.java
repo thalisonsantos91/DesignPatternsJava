@@ -23,12 +23,13 @@ abstract class ContaJuridica extends Conta {
 		this.limiteContaJuridica = limite;
 	}
 
-	protected int getNumeroConta() {
+	public int getNumeroConta(int numeroConta ) {
 		return numeroConta;
 	}
 
-	protected void setNumeroConta(int numeroConta) {
+	public int setNumeroConta(int numeroConta) {
 		this.numeroConta = numeroConta;
+		return numeroConta;
 	}
 
 	protected int getNumeroCNPJ() {
