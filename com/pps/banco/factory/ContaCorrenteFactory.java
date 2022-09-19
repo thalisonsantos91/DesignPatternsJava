@@ -7,7 +7,8 @@ import java.util.*;
 
 public class ContaCorrenteFactory extends ContaFactory {
 
-    private List<Conta> contas = new ArrayList<>();;
+   // private List<Conta> contas = new ArrayList<>();;
+    List<Conta> contas = new LinkedList<>();
 
     public ContaCorrenteFactory(){
     }

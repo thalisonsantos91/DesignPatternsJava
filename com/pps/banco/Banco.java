@@ -24,11 +24,17 @@ public class Banco {
     Banco() {
         contas = contas();
     }
-
+/*
     private List<Conta> contas() {
         List<Conta> contas = new LinkedList<>();
         return contas;
     }
+    */
+    
+    private ArrayList<Conta> contas(){
+		ArrayList<Conta> contas = new ArrayList();
+		return contas;
+	}
 
     private static void CriaConta(Conta c) {
         contas.add(c);

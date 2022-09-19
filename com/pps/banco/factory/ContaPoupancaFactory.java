@@ -2,6 +2,7 @@ package com.pps.banco.factory;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 import com.pps.banco.contas.Conta;
@@ -9,7 +10,8 @@ import com.pps.banco.contas.ContaCorrente;
 
 public class ContaPoupancaFactory extends ContaFactory{
 	
-	private List<Conta> contas = new ArrayList<>();;
+//	private List<Conta> contas = new ArrayList<>();
+	 List<Conta> contas = new LinkedList<>();
 
 	@Override
 	public void criarConta(String numeroConta, double saldo) {
