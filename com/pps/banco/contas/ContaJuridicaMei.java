@@ -13,7 +13,9 @@ public class ContaJuridicaMei extends ContaJuridica {
 		numeroConta = numeroContaMei;
 		numeroCNPJ = numeroCNPJMei;
 		dataAberturaContaJurdica = dataAberturaPJMei;
-	}
+	}	
+	
+	
 
 	@Override
 	void transferir(double valor) {
