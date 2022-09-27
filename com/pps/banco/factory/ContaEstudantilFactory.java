@@ -11,10 +11,10 @@ import com.pps.banco.contas.ContaCorrente;
 
 public class ContaEstudantilFactory extends ContaFactory {
 
-	// private List<Conta> contas = new ArrayList<>();
-	private List<Conta> contas = new LinkedList<>();
+	 private List<Conta> contas = new ArrayList<>();
+	//private List<Conta> contas = new LinkedList<>();
 	
-//	private HashMap<String,Conta> contas = new HashMap<String,Conta>();
+	//private HashMap<String,Conta> contas = new HashMap<String,Conta>();
 	
 	@Override
 	public void criarConta(String numeroConta, double saldo) {
