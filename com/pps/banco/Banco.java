@@ -25,12 +25,41 @@ public class Banco {
     Banco() {
         contas = contas();
     }
-
+    
+    
+  //Método para criar contas mantidas em TreeSet
+  	/*
+  	private TreeSet<Conta> contas(){
+  		TreeSet<Conta> contas = new TreeSet<Conta>();
+  		return contas;
+  	}
+  	*/
+    
+    
+   //Método para criar contas mantidas em HashMap
+  	/*
+  	private HashMap<String,Conta> contas(){
+  		HashMap<String,Conta> contas = new HashMap<String,Conta>();
+  		return contas;
+  	}
+  	*/
+    
+    
+   //Método para criar contas mantidas em LinkedList 
+    /*
     private List<Conta> contas() {
         List<Conta> contas = new LinkedList<>();
         return contas;
     }
-
+    */
+   
+  //Método para criar contas mantidas em ArrayList
+    
+    private ArrayList<Conta> contas(){
+		ArrayList<Conta> contas = new ArrayList();
+		return contas;
+	}
+   
     private static void CriaConta(Conta c) {
         contas.add(c);
     }
